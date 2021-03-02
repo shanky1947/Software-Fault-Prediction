@@ -1,1 +1,0 @@
-  When observing a new GRB, and the XRT_POS becomes available from the ICU, the DPU-DPA shall shift and resize the image and event windows appropriately.

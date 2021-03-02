@@ -1,1 +1,0 @@
-Standard I/O Interface		The read() primitive does not block.  A read is performed on the active portion of the H/W ping pong buffer using the RAD 6000 move-multiple instruction, referred to here after as a “block move”.  For optimum performance, the block move is implemented in assembler.  The number of bytes read is returned to the caller.

@@ -1,1 +1,0 @@
-  The DPU-CCM shall quietly discard any unrecognized observatory messages (I.e. messages which do not have a DPU command APID).

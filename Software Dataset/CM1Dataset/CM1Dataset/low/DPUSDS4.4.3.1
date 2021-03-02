@@ -1,9 +1,0 @@
-four prioritized tasks  Then the DPU FSW is booted, it initially consists of four prioritized tasks, which are described below:
-
-* The Exception Handler Task (excTask) is a VxWorks<99> operating system task which responds to any hardware exception that might occur during the course of program execution.  If an exception occurs, the Exception Handler suspends the offending task.  The Exception Handler is customized such that if an unrecoverable exception occurs, it will attempt to record the cause of the exception to EEPROM and reboot the DPU by disabling the watchdog strobe.
-* The Command and Control Task (ccmCtrlTask) is an Application Framework Software task which is responsible for spawning the
-remaining DPU FSW tasks and initializing the DPU FSW. the Command and Control Task then remains active to perform the remaining periodic processing tasks such as housekeeping collection and overall DPU FSW monitoring. it facilitates memory loads and
-dumps, and serves as the central point for error reporting.
-* The Log Task (logTask) is a VxWorks<99> operating system task which is used to log program output during software development and ground integration and test (I&T).  The task is left in the flight build in order to avoid different builds for ground testing vs. on orbit operations.
-* The Shell Task (shell) is a VxWorks<99> operating system task which provides a command-line interface to the DPU FSW during software development and ground I&T.  The task is left in the flight build in order to avoid different builds for ground testing vs. on orbit operations.  The task normally sits idle during on orbit operations.  However, it is possible to invoke the shell on orbit by way of a special ground command in the event it is necessary to diagnose an off-nominal condition or to install a software patch.
-

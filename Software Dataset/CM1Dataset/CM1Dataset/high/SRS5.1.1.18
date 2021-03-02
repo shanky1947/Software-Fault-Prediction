@@ -1,1 +1,0 @@
-  The Bootstrap Monitor of the DPU-BOOT CSC shall provide the capability to load a configuration of the DPU-RTOS from EEPROM to DRAM and start its execution on command.

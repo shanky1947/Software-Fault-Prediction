@@ -1,1 +1,0 @@
-  The DPU-CCM shall forward ACS_MSGs to the DPU-DPA for processing immediately upon receipt (I.e. shall not enqueue the message to the command dispatcher queue).

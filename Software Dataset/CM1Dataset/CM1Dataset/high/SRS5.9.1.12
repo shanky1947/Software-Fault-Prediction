@@ -1,1 +1,0 @@
-  The DPU-DCI shall provide an application program with the ability to read the current hardware status, including the Data Level Trigger, the Data Timeout Trigger, the DCI Event Mode, and the Normal/Test Mode.

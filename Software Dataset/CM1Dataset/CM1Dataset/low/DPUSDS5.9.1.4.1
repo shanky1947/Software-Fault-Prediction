@@ -1,1 +1,0 @@
-Standard I/O Interface		The write primitive does not block.  The buffer passed to write is written directly to the active portion of the ping pong buffer by the driver.  This primitive is valid only in TEST mode.  The write call will set errno to S_dci_MODE_ERROR and return ERROR if the driver is in NORMAL mode.  In TEST mode, the driver returns the number of bytes written.
