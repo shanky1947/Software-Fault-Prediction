@@ -1,0 +1,1 @@
+Public Functions	This routine is spawned by the Command and Control Task to initialize and execute the SCU Interface Data Processor Task.  This task initializes the SCUI CSC and then enters an “infinite” loop to process telemetry and produce STPDUs.  Once initialized, the task is awakened by a semaphore given when the SCU writes the “telemetry done” subaddress.

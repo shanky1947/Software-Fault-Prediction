@@ -1,0 +1,1 @@
+  The DPU-CCM shall strobe the Watchdog timer  by writing to the SCM_WDR at an interval of 1 second.

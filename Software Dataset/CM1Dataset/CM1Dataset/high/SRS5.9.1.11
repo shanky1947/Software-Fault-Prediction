@@ -1,0 +1,1 @@
+  The DPU-DCI shall provide an application program with the ability to force a ping-pong buffer swap when the interface is in Test Mode.

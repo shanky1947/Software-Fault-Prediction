@@ -1,0 +1,1 @@
+Public Functions	Operationally, the DPU uses the Jam bit in the DCI CSR to indicate whether the DPU is actively syncing its clock with the spacecraft or not.  This function sets the Jam bit if autoSync is FALSE, and negates the Jam bit otherwise. THIS FUNCTION ALTERS THE VALUE OF THE DCI CSR AND SHOULD NOT BE INVOKED WHEN DCI INTERRUPTS ARE ACTIVE.

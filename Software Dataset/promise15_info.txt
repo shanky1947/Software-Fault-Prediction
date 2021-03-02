@@ -1,0 +1,40 @@
+%cocomo attributes: described above in section 4
+@attribute rely {vl,l,n,h,vh,xh}
+@attribute data {vl,l,n,h,vh,xh}
+@attribute cplx {vl,l,n,h,vh,xh}
+@attribute time {vl,l,n,h,vh,xh}
+@attribute stor {vl,l,n,h,vh,xh}
+@attribute virt {vl,l,n,h,vh,xh}
+@attribute turn {vl,l,n,h,vh,xh}
+@attribute acap {vl,l,n,h,vh,xh}
+@attribute aexp {vl,l,n,h,vh,xh}
+@attribute pcap {vl,l,n,h,vh,xh}
+@attribute vexp {vl,l,n,h,vh,xh}
+@attribute lexp {vl,l,n,h,vh,xh}
+@attribute modp {vl,l,n,h,vh,xh}
+@attribute tool {vl,l,n,h,vh,xh}
+@attribute sced {vl,l,n,h,vh,xh}
+
+%equivalent physical 1000 lines of source code
+@attribute equivphyskloc real
+
+%development effort in months (one month =152 hours and includes development and management hours)
+@attribute act_effort real
+
+% Section 8. Missing attributes: none
+
+% Section 9: Distribution of class values
+%
+%  #  development months
+%  == ==================
+%  46    0 - 499
+%  28  500 - 999
+%   7 1000 - 1499
+%   3 1500 - 1999
+%   3 2000 - 2499
+%   3 2500 - 2999
+%   0 3000 - 3999
+%   1 4000 - 4499
+%   1 4500 - 4999
+%   0 5000 - 7999 
+%   1 8000

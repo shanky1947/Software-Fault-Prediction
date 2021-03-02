@@ -1,0 +1,1 @@
+The DPU-BOOT CSC shall periodically strobe the PSM Watchdog Timer at B second intervals (+/- 1/2 second) by writing 0xEB90 to the Watchdog Clear Register, SCM_WDR.  The Bootstrap CSC shall continue the strobe during transition of control from the Bootstrap to the Operating System.

@@ -1,0 +1,39 @@
+%  5. Number of instances: 63
+
+%  6. Number of attributes: 17 (all numeric: 15 for the effort multipliers,
+%       one for LOC and one for actual development effort.
+
+%  7. Attribute information:
+
+@attribute rely numeric
+@attribute data numeric
+@attribute cplx numeric
+@attribute time numeric
+@attribute stor numeric
+@attribute virt numeric
+@attribute turn numeric
+@attribute acap numeric
+@attribute aexp numeric
+@attribute pcap numeric
+@attribute vexp numeric
+@attribute lexp numeric
+@attribute modp numeric
+@attribute tool numeric
+@attribute sced numeric
+@attribute loc numeric
+@attribute actual numeric
+
+% 8. Missing attributes: none
+
+% 9: Class distribution: the class value (actual) is continuous.
+%    After sorting all the instances on actual, the following
+%    distribution was found:
+%    Instances     Range
+%    ---------  ----------------
+%      1 .. 10	  5.9 ..    15
+%     11 .. 20	  18  ..    47
+%     21 .. 30	  50  ..    87
+%     31 .. 40	  88  ..   218
+%     41 .. 50	 230  ..   539
+%     51 .. 60 	 605  ..  2455
+%     61 .. 63	6400  .. 11400

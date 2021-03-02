@@ -1,0 +1,1 @@
+  The centroid confirmation engineering mode shall produce a PROD_CENTROID_CONF.  This mode shall divide a full frame image into a certain regions.  Each region shall be processed to form an 8x8 confirmation image.  The certain confirmation images shall be sent to the solid state recorder as one data product.

@@ -1,0 +1,1 @@
+  The DPU-CCM shall forward the DPU_HBEAT message to DPU-ICUI for transmission to the ICU at an interval of A seconds.

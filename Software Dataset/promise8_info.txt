@@ -1,0 +1,34 @@
+@attribute 'Project ID' {A,B,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y}
+@attribute 'Software Staff' {L,M,S}
+@attribute 'Overall Staff' {L,X,M,S}
+@attribute 'Type of Software Production' {product-family,isolated}
+@attribute 'Software and Product' {product,alone,process,NA}
+@attribute 'SP maturity' {high,middle,low}
+@attribute 'Application Domain' {TLC,SE-Tools,Bank,Engine_Controller,FMS,ATC,TS,Space,Manufacturing,Measurement,Finance,Book-Keeping}
+@attribute 'Type of Software' {Technical,Business,Embedded-RT,Non-Embedded-RT}
+@attribute 'Size of Baseline' {L,M,S,not_available}
+@attribute 'Development Approach' {OO,proc,not_available}
+@attribute 'Staff Experience' {high,middle,low,not_available}
+@attribute 'Top Management Commitment' {yes,no}
+@attribute 'Key Reuse Roles Introduced' {yes,no,NA}
+@attribute 'Reuse Processes Introduced' {yes,no,NA}
+@attribute 'Non-Reuse Processes Modified' {yes,no,NA}
+@attribute Repository {yes,NA}
+@attribute 'Human Factors' {yes,no}
+@attribute 'Reuse Approach' {tight,loose,NA}
+@attribute 'Work Products' {D+C,C,R+D+C,NA}
+@attribute 'Domain Analysis' {yes,no,NA}
+@attribute Origin {ex-novo,as-is,reeng,NA}
+@attribute 'Independent Team' {yes,no,NA}
+@attribute 'When Assests Developed' {before,justintime,NA}
+@attribute Qualification {yes,no,NA}
+@attribute 'Configuration Management' {yes,no,NA}
+@attribute 'Rewards Policy' {no,yes}
+@attribute '# assests' {51_to_100,21_to_50,100+,1_to_20,NA}
+@attribute 'Success or Failure' {success,failure}
+ 
+% 8. Missing attributes: 6 
+
+% 9. Class Distribution:
+  % success: 15
+  % failure: 9

@@ -1,0 +1,1 @@
+  The DPU-BOOT CSC shall include a DRAM BIT consisting of two write/read/compare tests.  The first test shall write the address of each memory location to that location.  The second test shall write the complement of each memory location to that location.

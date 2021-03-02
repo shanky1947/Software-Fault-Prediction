@@ -1,0 +1,58 @@
+% 5. Number of instances: 60
+
+% 6. Number of attributes: 17 (15 discrete in the range Very_Low to
+%       Extra_High; one lines of code measure, and one goal field
+%       being the actual effort in person months).
+
+% 7. Attribute information:
+
+@relation cocomonasa.csv
+
+@attribute RELY {Nominal,Very_High,High,Low} %1
+@attribute DATA {High,Low,Nominal,Very_High} %2 
+@attribute CPLX {Very_High,High,Nominal,Extra_High,Low} %3
+@attribute TIME {Nominal,Very_High,High,Extra_High} %4
+@attribute STOR {Nominal,Very_High,High,Extra_High} %5
+@attribute VIRT {Low,Nominal,High} %6
+@attribute TURN {Nominal,High,Low} %7
+@attribute ACAP {High,Very_High,Nominal} %8
+@attribute AEXP {Nominal,Very_High,High} %9
+@attribute PCAP {Very_High,High,Nominal} %10
+@attribute VEXP {Low,Nominal,High} %11
+@attribute LEXP {Nominal,High,Very_Low,Low} %12
+@attribute MODP {High,Nominal,Very_High,Low} %13
+@attribute TOOL {Nominal,High,Very_High,Very_Low,Low} %14
+@attribute SCED {Low,Nominal,High} %15
+@attribute LOC numeric %16
+@attribute ACT_EFFORT numeric %17
+
+% 8. Missing attributes: none
+
+% 9: Class distribution: the class value (ACT_EFFORT) is continuous.
+%    After sorting all the instances on ACT_EFFORT, the following
+%    distribution was found:
+%    Instances     Range
+%    ---------     --------------
+%     1..10         8.4 ..   42
+%    11..20        48   ..   68
+%    21..30        70   ..  117.6
+%    31..40       120   ..  300
+%    41..50       324   ..  571
+%    51..60       750   .. 3240
+
+% Change log:
+% -----------
+%
+%  2005/04/04 Jelber Sayyad Shirabad (PROMISE Librarian) <promise@site.uottawa.ca>
+%  1) Minor editorial changes, as well as moving the information provided by
+%     Zhihao Chen to the new sections 3.1 and 4.1
+%
+%  2005/03/28 Zhihao Chen, CSE, USC, USA, <zhihaoch@cse.usc.edu>
+%  1) Fix a mistake in line corresponding to cplx entry in the table of "The numeric values of the effort multipliers"
+%    "cplx   	0.70 	0.85 	1.00 	1.15 	1.30 	1.65	-1.86" should be 
+%    "cplx   	0.70 	0.85 	1.00 	1.15 	1.30 	1.65	-2.36"
+%
+%  2) Additional information about various classifications of the projects are provided.
+%
+%  3) Additional usage information is provided 
+%

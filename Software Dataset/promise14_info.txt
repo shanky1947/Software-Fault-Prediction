@@ -1,0 +1,63 @@
+% Attributes:
+
+@attribute Project numeric        % proj if
+@attribute TeamExp numeric        % measured in years
+@attribute ManagerExp numeric     % measured in years
+@attribute YearEnd numeric
+@attribute Length numeric
+@attribute Effort numeric        % ActualEffort is measured in person-hours
+@attribute Transactions numeric  % Transactions is a count of basic logical transactions in the system
+@attribute Entities numeric      % Entities is the number of entities in the systems data model
+@attribute PointsAdjust numeric
+@attribute Envergure numeric
+@attribute PointsNonAjust numeric
+@attribute Language {1,2,3}      
+%
+% Sample run (WEKA):
+%          === Run information ===
+%
+%          Scheme:       weka.classifiers.functions.LinearRegression -S 0 -R 1.0E-8
+%          Relation:     martin.csv
+%          Instances:    81
+%          Attributes:   12
+%                        Project
+%                        TeamExp
+%                        ManagerExp
+%                        YearEnd
+%                        Length
+%                        Effort
+%                        Transactions
+%                        Entities
+%                        PointsAdjust
+%                        Envergure
+%                        PointsNonAjust
+%                        Langage
+%          Test mode:    10-fold cross-validation
+%
+%          === Classifier model (full training set) ===
+%
+%          Linear Regression Model
+%
+%          Effort =
+%             -433.25   * TeamExp +
+%              408.8057 * ManagerExp +
+%              201.2701 * Length +
+%                4.2361 * Transactions +
+%                7.9056 * Entities +
+%                4.4594 * PointsAdjust +
+%               92.1389 * Envergure +
+%            -1777.4579 * Langage +
+%             -278.0786
+
+%
+%          Time taken to build model: 0.02 seconds
+%
+%          === Cross-validation ===
+%          === Summary ===
+%
+%          Correlation coefficient                  0.7303
+%          Mean absolute error                   2082.1182
+%          Root mean squared error               3007.0504
+%          Relative absolute error                 64.9965 %
+%          Root relative squared error             67.3788 %
+%          Total Number of Instances               81

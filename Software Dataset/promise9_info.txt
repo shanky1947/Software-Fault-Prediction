@@ -1,0 +1,17 @@
+% 9. Class Distribution:
+%    0:   119 = 91.54% 
+%    1:   11  =  8.46%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@relation DATATRIEVE
+
+@attribute LOC6_0 numeric
+@attribute LOC6_1 numeric
+@attribute Added_LoC numeric
+@attribute Del_LoC numeric
+@attribute Diff_Block numeric
+@attribute Mod_Rate numeric
+@attribute Mod_Know numeric
+@attribute ReusedLoC numeric
+@attribute Faulty6_1 {0, 1}
