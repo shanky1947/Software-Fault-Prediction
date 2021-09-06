@@ -12,11 +12,11 @@
          alt="HTML">
   </a>
   <a href="">
-    <img src="https://github.com/shanky1947/github-badges/blob/master/uses-tensorflow.svg"
+    <img src="https://github.com/shanky1947/github-badges/blob/master/data-science.svg"
          alt="CSS">
   </a>
   <a href="">
-    <img src="https://github.com/shanky1947/github-badges/blob/master/uses-keras.svg"
+    <img src="https://github.com/shanky1947/github-badges/blob/master/machine-learning.svg"
          alt="Git">
   </a>
     <a href="">
